@@ -9,3 +9,5 @@ def buildImage(){
 def completeTask(){
     echo "Task is completed.."
 }
+
+return this
