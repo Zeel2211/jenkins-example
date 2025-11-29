@@ -19,7 +19,9 @@ pipeline {
 
         stage("Completed") {
             steps {
-                gv.completeTask()
+                script {
+                    gv.completeTask()
+                }
             }
         }
     }
